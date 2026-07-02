@@ -1,0 +1,12 @@
+[
+    {
+        "prompt": "What is the capital of France? One word only.",
+        "expected_contains": "Paris",
+        "max_latency_ms": 2000
+    },
+    {
+        "prompt": "Explain what a router is in networking.",
+        "expected_contains": "network",
+        "max_latency_ms": 3000
+    }
+]
