@@ -36,25 +36,25 @@ This project acts as an "Air Traffic Controller" between user applications and A
    pip install -r requirements.txt
    
 2. **Start the Redis Cache (Docker):**
-```bash
-docker run --name gateway-redis -p 6379:6379 -d redis:alpine
-```
+   ```bash
+   docker run --name gateway-redis -p 6379:6379 -d redis:alpine
+   ```
 
 3. **Set up environment variables:**
 Create a .env file in the root directory:
-```bash
-GROQ_API_KEY=your_key
-GEMINI_API_KEY=your_key
-DATABASE_URL=postgresql://user:pass@localhost:5432/db
-```
+   ```bash
+   GROQ_API_KEY=your_key
+   GEMINI_API_KEY=your_key
+   DATABASE_URL=postgresql://user:pass@localhost:5432/db
+   ```
 
 4. **Run the FastAPI Server:**
-```bash
-python -m uvicorn app.main:app --reload
-```
+   ```bash
+   python -m uvicorn app.main:app --reload
+   ```
 
 5. **Test the Gateway:**
-```bash
-curl -X POST "http://127.0.0.1:8000/v1/chat" \
--H "Content-Type: application/json" \
--d '{"prompt": "What is the capital of France?"}'
+   ```bash
+   curl -X POST "http://127.0.0.1:8000/v1/chat" \
+   -H "Content-Type: application/json" \
+   -d '{"prompt": "What is the capital of France?"}'
