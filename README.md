@@ -41,7 +41,8 @@ This project acts as an "Air Traffic Controller" between user applications and A
    ```
 
 3. **Set up environment variables:**
-Create a .env file in the root directory:
+
+   Create a .env file in the root directory:
    ```bash
    GROQ_API_KEY=your_key
    GEMINI_API_KEY=your_key
