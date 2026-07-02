@@ -21,11 +21,13 @@ This project acts as an "Air Traffic Controller" between user applications and A
 
 ## 📸 Dashboards & Logs
 
-*(Add your Grafana Latency chart screenshot here)*
-![Grafana Dashboard](link-to-image)
+**Grafana Dashboard**
+<img width="997" height="330" alt="image" src="https://github.com/user-attachments/assets/29e0d646-8736-4fb4-b013-addcf3d58070" />
 
-*(Add your terminal screenshot showing the Cache Hit and Toxicity Eval here)*
-![Terminal Output](link-to-image)
+
+**Terminal Output**
+
+<img width="750" height="162" alt="image" src="https://github.com/user-attachments/assets/d7394d10-d16b-4211-916e-40e4b2adb3b3" />
 
 ## 🚀 How to Run Locally
 
